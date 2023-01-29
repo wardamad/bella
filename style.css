@@ -1,0 +1,399 @@
+
+.navbar ul li span {
+    color: #FA4A0C;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titreaccueil {
+    background: url(img/2eme\ photo.png);
+    height: 619px;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titreaccueil h1 {
+    margin-top: 0px;
+    font-size: 50px; 
+    font-family: Poppins;
+}
+
+.cardmenu {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    }
+.card {
+    border:solid 3px #FA4A0C;
+    margin: 20px;
+    width: 377PX;;
+}
+
+.card p {
+    font-weight: bolder;
+}
+
+ .card img {
+     width: 381px;
+ }
+
+ .titre {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 600px;
+    font-size: 44px;
+
+ }
+
+ .card button {
+   background-color: #FA4A0C;
+   color:white;
+   border-radius: 30px;
+   border: none;
+   width: 177px;
+   font-size: 24px;
+   cursor: pointer;
+   height: 68px;
+   box-shadow:  0px 10px 30px rgba( 183 , 50, 39, 0.2);
+   float: right;
+
+ }
+
+
+.bonap {
+    background-image: url( "img/3photo.png");
+    color:white;
+    Text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    height: 516px;
+}    
+    
+.footer {
+    
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: space-between;
+   margin: 30PX 90PX 0 90PX;
+}
+
+footer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 90px 0 90px;
+}
+
+/**********************************************page 2 livraison *******************************/
+
+.forminfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 50%;
+    margin-bottom: 70px;
+}
+
+.infogauche form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.infogauche {
+    margin-right: 30%; 
+}
+.infodroite form{
+    display: flex;
+    flex-direction:column;
+    
+}
+  
+.titreform {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40%;
+    margin-left: 5%;
+}
+
+.titreform h2 { 
+    font-size: 44px;
+    font-family: 'poppins';
+    
+
+}
+.titreform h3 {
+    font-size: 24px;
+    color:#FA4A0C
+
+}
+
+.suppl {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    margin-left: 5%;
+
+}
+hr {
+    width: 50%;
+    color: rgb(160, 160, 160);
+}
+
+input , select{
+    width: 320px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+input{ 
+     width: 320px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 14px;
+
+}
+label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 10pX;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.suppléments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: flex-start;
+}
+.frites {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%; 
+}
+
+
+.Quantité {
+    flex-direction: column;
+    display: flex;
+    font-family: 'Roboto';
+    margin-bottom: 10%;
+     margin-top: 10%;
+     font-size: 14%;
+    }
+
+hr {
+    width: 50%;
+    color: rgb(160, 160, 160);
+}
+
+
+.avec {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    font-size:14px;
+    font-family: 'Roboto';
+    padding-top:10% ;
+}
+
+.sans {
+    display: flex;
+    flex-direction: row;
+}
+
+/*****.containerBoissonDessert {
+    border: #FA4A0C 1px solid;
+    width: 80%;
+    display: flex;
+    margin-right: 30%;
+    
+    }
+    .champchoix {
+        display: flex;                         
+        flex-direction: row;
+       
+       margin-right: 20%;
+    } 
+
+    .h2 {
+        width: 380px;
+        height: 46.03px;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    .h3 {
+        width: 380px;
+        height: 46.03px;
+        flex-direction: column;
+        justify-content: space-between; 
+    } 
+    
+    .champchoix {
+    display: flex;                         
+    flex-direction: row;
+   
+   margin-right: 20%;
+} 
+
+.formboissons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input {
+        margin: 20px;
+        width: 320px;
+        height: 40px;
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-size: 14px;
+         justify-content: space-between;
+}
+   
+/*partie formulaire*/
+
+.formulaire form {
+ width: 90%;   
+height: 100%;
+ padding: 30%;
+border-radius: 25px;
+ margin: 0;
+ display: flex;
+ flex-direction: row; 
+}
+
+    h2 {
+        text-align: left;
+        text-transform: uppercase;
+        border-bottom: 1px solid #FA4A0C
+    }
+label {
+    font-size: 14px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+input {
+    width: 320px;
+    height: 40px;
+   border-radius: 4PX
+ flex-direction: row;
+ justify-content: space-between;
+
+}
+
+.inpot:hover {
+    border: solid #FA4A0C;
+    font-weight: bold;
+    flex-direction: column;
+justify-items: left;
+
+ padding: 10PX;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    list-style: none;
+}
+
+
+/*********************************formulaire boissons desserts *******************************/
+
+.formm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+
+
+.titreboissondessert {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+    margin-top: 10%;
+
+}
+.titreboissondessert h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', 'Source Sans Pro'
+}
+
+.formm p {
+    margin-left: 10px;
+}
+.gauch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 5%; 
+}
+
+.droite {
+   
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.formm select {
+    margin-left: 20px; 
+    font-family: 'Roboto', 'Source Sans Pro';
+    margin-top: 10px;
+
+}
+
+.form1 {
+    display: flex;
+    flex-direction: row;
+}
+.form2{
+    display: flex;
+    flex-direction: row;
+}
+
+/**********************************************************************/
+
+
+ 
+
+
